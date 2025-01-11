@@ -20,6 +20,17 @@
             ]
         }
     },
+    "Versions": [
+        {
+            "Version": "1.5.0.4",
+            "Title": "1.5.0.4",
+            "Channels": [
+                "stable",
+                "beta"
+            ],
+            "VersionInfoUrl": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.0.4/index.json"
+        }
+    ],
     "Channels": {
         "stable": {
             "Name": "稳定通道",
