@@ -25,20 +25,9 @@ jobs:
         run: |
           pwsh -ep bypass ./tools/sign.ps1
 
-      - name: Upload file to bucket
-        uses: koraykoska/s3-upload-github-action@master
-        env:
-          FILE: ./out/classisland/
-          S3_ENDPOINT: 'cn-nb1.internal.rains3.com'
-          S3_BUCKET: ${{ secrets.BUCKET }}
-          S3_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
-          S3_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
-    
-      - name: Upload to release
-        uses: ncipollo/release-action@v1
-        with:
-          tag: latest
-          allowUpdates: true
-          artifacts: ./out/*.zip,./out/*.md5sum
-          bodyFile: ./out/checksums.md
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload file to alist
+        env: # Or as an environment variable
+          ALIST_HOST: ${{ secrets.ALIST_HOST }}
+          ALIST_KEY: ${{ secrets.ALIST_KEY }}
+        run: |
+          pwsh -ep bypass ./tools/upload-alist.ps1 ./out/ ClassIsland-Ningbo-S3/classisland/

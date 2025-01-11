@@ -15,4 +15,4 @@ function SignFolder {
 
 SignFolder ./metadata
 
-Copy-Item ./metadata ./out/classisland -Recurse -Force
+Copy-Item ./metadata ./out/ -Recurse -Force
