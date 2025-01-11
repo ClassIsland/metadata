@@ -6,7 +6,7 @@ function SignFolder {
     foreach ($i in $files) {
         Write-Output $i.FullName
         if ($(Test-Path $i -PathType Container)) {
-            Sign-Folder $i.FullName
+            SignFolder $i.FullName
         } else {
             gpg --default-key "elf-elysia.noreply@classisland.tech" --detach-sign $i.FullName
         }
