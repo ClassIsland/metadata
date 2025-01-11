@@ -1,0 +1,44 @@
+name: Sync metadata
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 
+
+      - name: List files
+        run: ls
+
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.SIGN_PRIVATE_KEY }}
+
+      - name: Sign Files
+        run: |
+          pwsh -ep bypass ./tools/sign.ps1
+
+      - name: Upload file to bucket
+        uses: koraykoska/s3-upload-github-action@master
+        env:
+          FILE: ./out/classisland/
+          S3_ENDPOINT: 'cn-nb1.internal.rains3.com'
+          S3_BUCKET: ${{ secrets.BUCKET }}
+          S3_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+          S3_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
+    
+      - name: Upload to release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: latest
+          allowUpdates: true
+          artifacts: ./out/*.zip,./out/*.md5sum
+          bodyFile: ./out/checksums.md
+          token: ${{ secrets.GITHUB_TOKEN }}
