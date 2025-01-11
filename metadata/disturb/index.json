@@ -1,7 +1,7 @@
 {
     "Mirrors": {
         "main": {
-            "Name": "主下载站",
+            "Name": "线路 1",
             "SpeedTestUrls": [
                 "get.classisland.tech"
             ]
