@@ -7,14 +7,14 @@
             ]
         },
         "github-origin": {
-            "Name": "GitHub",
+            "Name": "线路 2 (GitHub)",
             "SpeedTestUrls": [
                 "github.com",
                 "objects.githubusercontent.com"
             ]
         },
         "github-ghp": {
-            "Name": "GitHub (ghproxy 镜像)",
+            "Name": "线路 3 (ghproxy 镜像)",
             "SpeedTestUrls": [
                 "ghgo.top"
             ]
