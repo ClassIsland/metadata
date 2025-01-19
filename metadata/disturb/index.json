@@ -1,45 +1,53 @@
 {
-    "Mirrors": {
-        "main": {
-            "Name": "线路 1",
-            "SpeedTestUrls": [
-                "get.classisland.tech"
-            ]
-        },
-        "github-origin": {
-            "Name": "线路 2 (GitHub)",
-            "SpeedTestUrls": [
-                "github.com",
-                "objects.githubusercontent.com"
-            ]
-        },
-        "github-ghp": {
-            "Name": "线路 3 (ghproxy 镜像)",
-            "SpeedTestUrls": [
-                "ghgo.top"
-            ]
-        }
+  "Mirrors": {
+    "main": {
+      "Name": "线路 1",
+      "SpeedTestUrls": [
+        "get.classisland.tech"
+      ]
     },
-    "Versions": [
-        {
-            "Version": "1.5.0.4",
-            "Title": "1.5.0.4",
-            "Channels": [
-                "stable",
-                "beta"
-            ],
-            "VersionInfoUrl": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.0.4/index.json"
-        }
-    ],
-    "Channels": {
-        "stable": {
-            "Name": "稳定通道",
-            "Description": "接收应用稳定版的更新，包含较新且稳定的特性和改进。"
-        },
-        "beta": {
-            "Name": "测试通道",
-            "Description": "接收应用最新的测试版更新，包含最新的特性和改进，可能包含缺陷和未完工的功能。",
-            "Warning": "测试版可能包含缺陷和未完工的功能，请谨慎使用。"
-        }
+    "github-origin": {
+      "Name": "线路 2 (GitHub)",
+      "SpeedTestUrls": [
+        "github.com",
+        "objects.githubusercontent.com"
+      ]
+    },
+    "github-ghp": {
+      "Name": "线路 3 (ghproxy 镜像)",
+      "SpeedTestUrls": [
+        "ghgo.top"
+      ]
     }
+  },
+  "Versions": [
+    {
+      "Version": "1.5.0.4",
+      "Title": "1.5.0.4",
+      "Channels": [
+        "stable",
+        "beta"
+      ],
+      "VersionInfoUrl": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.0.4/index.json"
+    },
+    {
+      "Channels": [
+        "stable"
+      ],
+      "Title": "0.0.0.0",
+      "VersionInfoUrl": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/0.0.0.0/index.json",
+      "Version": "0.0.0.0"
+    }
+  ],
+  "Channels": {
+    "stable": {
+      "Name": "稳定通道",
+      "Description": "接收应用稳定版的更新，包含较新且稳定的特性和改进。"
+    },
+    "beta": {
+      "Name": "测试通道",
+      "Description": "接收应用最新的测试版更新，包含最新的特性和改进，可能包含缺陷和未完工的功能。",
+      "Warning": "测试版可能包含缺陷和未完工的功能，请谨慎使用。"
+    }
+  }
 }
