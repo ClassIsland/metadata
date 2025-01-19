@@ -2,6 +2,8 @@ name: Sync metadata
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
   build:
