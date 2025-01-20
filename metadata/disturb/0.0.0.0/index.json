@@ -1,0 +1,19 @@
+{
+  "Version": "0.0.0.0",
+  "Channels": [
+    "stable",
+    "_"
+  ],
+  "ChangeLogs": "# 0.0.0.0\r\n\r\n1234567890\r\n",
+  "DownloadInfos": {
+    "windows_app_ClassIsland_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveSHA256": "8CED658B9122F7FDF70440E1852016A2E03E5441949315B879B7BBF820258F5A",
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/0.0.0.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/0.0.0.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      }
+    }
+  },
+  "Title": "0.0.0.0"
+}
