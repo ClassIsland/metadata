@@ -1,0 +1,26 @@
+{
+  "Version": "0.0.0.0",
+  "ChangeLogs": "# 0.0.0.0\r\n\r\n1234567890\r\n",
+  "DownloadInfos": {
+    "out_app_windows_x64_trimmed_singleFile": {
+      "ArchiveSHA256": "9202D4CA09964E344030E4F347A64BE3FD24046B1FEA07383EA195FCF54C5116",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/0.0.0.0/out_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/0.0.0.0/out_app_windows_x64_trimmed_singleFile.zip"
+      }
+    },
+    "out_app_windows_x64_full_singleFile": {
+      "ArchiveSHA256": "F1C915EDF22327748FD09DB3122082DEE6B08E21685681980AEBA36DFF68D0D6",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/0.0.0.0/out_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/0.0.0.0/out_app_windows_x64_full_singleFile.zip"
+      }
+    }
+  },
+  "Title": "0.0.0.0",
+  "Channels": [
+    "stable"
+  ]
+}
