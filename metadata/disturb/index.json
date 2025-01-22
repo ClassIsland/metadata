@@ -12,12 +12,6 @@
         "github.com",
         "objects.githubusercontent.com"
       ]
-    },
-    "github-ghp": {
-      "Name": "线路 3 (ghproxy 镜像)",
-      "SpeedTestUrls": [
-        "ghgo.top"
-      ]
     }
   },
   "Versions": [

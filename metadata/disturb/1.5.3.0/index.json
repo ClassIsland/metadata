@@ -1,13 +1,21 @@
 {
   "Title": "1.5.3.0",
   "DownloadInfos": {
-    "windows_app_ClassIsland_singleFile": {
+    "windows;x86_64;singleFile;trimmed": {
       "DeployMethod": 1,
       "ArchiveDownloadUrls": {
         "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.3.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
         "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.3.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
       },
       "ArchiveSHA256": "7C577271685931D5A4443C060622E296E27B0142F86CF2C7F6A4C5668E98A0B3"
+    },
+    "windows;x86_64;singleFile;full": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.3.0/ClassIsland_app_windows_x64_trimmed_full.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.3.0/ClassIsland_app_windows_x64_trimmed_full.zip"
+      },
+      "ArchiveSHA256": "C4DB247762411A43B8789E5A98B7D191437E97840C7343183DA127A10D1BE80D"
     }
   },
   "Version": "1.5.3.0",
