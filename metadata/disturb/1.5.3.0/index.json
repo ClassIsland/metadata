@@ -1,0 +1,19 @@
+{
+  "Title": "1.5.3.0",
+  "DownloadInfos": {
+    "windows_app_ClassIsland_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.3.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.3.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "7C577271685931D5A4443C060622E296E27B0142F86CF2C7F6A4C5668E98A0B3"
+    }
+  },
+  "Version": "1.5.3.0",
+  "Channels": [
+    "beta",
+    "_"
+  ],
+  "ChangeLogs": "# 1.5.3.0\r\n\r\n1.6 - Himeko\r\n\r\n> 1.6 - Himeko 测试版，可能包含未完善和不稳定的功能\r\n\r\n## 🚀 新增功能与优化\r\n\r\n- **【组件】多行组件：**支持为主界面设置多行组件 ([#181](https://github.com/ClassIsland/ClassIsland/issues/181))\r\n- **【集控】本地集控：**允许在不使用集控服务的情况下在本地设置密码和限制策略\r\n- **【集控】密码保护功能：**允许为某些功能设置访问密码 ([#311](https://github.com/ClassIsland/ClassIsland/issues/311))\r\n- 【天气】天气的搜索城市不再使用本地数据库，改为在线获取城市信息\r\n- 【天气】添加对非中国内地城市的支持\r\n- 【天气】获取日出日落数据\r\n- 【提醒/语音】添加 GPT-SoVITS 语音支持 ([#590](https://github.com/ClassIsland/ClassIsland/issues/590))\r\n- 【更新】重构更新系统，支持从内地源下载应用更新 ([#401](https://github.com/ClassIsland/ClassIsland/issues/401))\r\n- 【API/认证】认证提供方注册功能\r\n- 【API/Uri 导航】允许在通过 Uri 导航应用设置页面时保留历史记录\r\n- 【API/通用对话框】添加 CommonDialogBuilder.SetIconKind 方法以按照对话框类型设置图标\r\n\r\n## ♻ 移除的功能\r\n\r\n- 【调试】移除调试中集控策略选项\r\n\r\n## 🐛 Bug 修复\r\n\r\n- 【插件】修复加载损坏的插件配置导致应用无法启动的问题 ([#565](https://github.com/ClassIsland/ClassIsland/issues/565))\r\n- 【构建】修复 Edge_tts_sharp 项目还原问题\r\n"
+}
