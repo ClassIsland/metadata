@@ -1,0 +1,43 @@
+{
+  "Version": "1.5.3.1",
+  "ChangeLogs": "# 1.5.3.1\r\n\r\n1.6 - Himeko\r\n\r\n> 1.6 - Himeko 测试版，可能包含未完善和不稳定的功能\r\n\r\n本版本包含了对 1.5.3.0 中一些问题的修复。\r\n\r\n## 🚀 新增功能与优化\r\n\r\n- 【应用】优化应用异常捕获逻辑\r\n- 【API/主界面】引入行高度 IslandContainerHeight 资源值\r\n- 【API/主界面/组件】为 ContentPresenter 引入表示组件为根组件的 IsRootComponent 属性\r\n\r\n## 🐛 Bug 修复\r\n\r\n- 【主界面】修复关闭鼠标淡化和鼠标移入淡化反转不可用的问题\r\n- 【主界面】修复主界面会意外隐藏的问题\r\n- 【应用】修复 AppSubChannel 错误的问题\r\n- 【应用设置/更新】修复更新设置页面无法正常刷新数据的问题\r\n- 【API/UI】修复 SolidColorBrushToColorConverter 可能发生空值转换的问题\r\n",
+  "Channels": [
+    "beta",
+    "_"
+  ],
+  "DownloadInfos": {
+    "windows_x64_full_singleFile": {
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.3.1/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.3.1/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "69CBE5874C9D7F36D7E31023E1C647AA6BEB4CD5925954C8BC16924C3B734EF3",
+      "DeployMethod": 1
+    },
+    "windows;x86_64;singleFile;trimmed": {
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.3.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.3.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "49DD535E71D7CEAA4B80D326845CBF83505A04D5A41D499C573E25DD60E208EB",
+      "DeployMethod": 1
+    },
+    "windows;x86_64;singleFile;full": {
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.3.1/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.3.1/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "69CBE5874C9D7F36D7E31023E1C647AA6BEB4CD5925954C8BC16924C3B734EF3",
+      "DeployMethod": 1
+    },
+    "windows_x64_trimmed_singleFile": {
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.3.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.3.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "49DD535E71D7CEAA4B80D326845CBF83505A04D5A41D499C573E25DD60E208EB",
+      "DeployMethod": 1
+    }
+  },
+  "Title": "1.5.3.1"
+}
