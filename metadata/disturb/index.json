@@ -20,6 +20,7 @@
       "Title": "1.5.0.4",
       "Channels": [
         "stable",
+        "rp",
         "beta"
       ],
       "VersionInfoUrl": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.0.4/index.json"
@@ -56,6 +57,10 @@
     "stable": {
       "Name": "稳定通道",
       "Description": "接收应用稳定版的更新，包含较新且稳定的特性和改进。"
+    },
+    "rp": {
+      "Name": "发布预览通道",
+      "Description": "提前预览下一个大版本中应用的功能，包含较新的特性和改进，可能存在少量缺陷。"
     },
     "beta": {
       "Name": "测试通道",
