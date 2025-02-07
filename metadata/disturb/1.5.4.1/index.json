@@ -1,0 +1,44 @@
+{
+  "Title": "1.5.4.1",
+  "ChangeLogs": "# 1.5.4.1\r\n\r\n1.6 - Himeko\r\n\r\n本版本包括对 1.5.4.0 的一些重要 Bug 修复，请及时更新。如果您已经无法启动 1.5.4.0 版本的 ClassIsland，可以直接在下方下载对应架构的应用包，然后直接替换 ClassIsland.exe 完成升级。很抱歉给各位用户带来的不便。\r\n\r\n> 1.6 - Himeko 测试版，可能包含未完善和不稳定的功能\r\n\r\n## 🐛 Bug 修复\r\n\r\n- 【更新】修复更新服务循环引用属性，造成应用崩溃的问题。 #662 #657\r\n\r\n1.5.4.0 更新日志：<https://github.com/ClassIsland/ClassIsland/releases/tag/1.5.4.0>\r\n",
+  "Channels": [
+    "beta",
+    "_",
+    "rp"
+  ],
+  "DownloadInfos": {
+    "windows;x86_64;singleFile;trimmed": {
+      "ArchiveSHA256": "1B1982A97A4626CC93CF78C99C58EA8C0460A08EA55477E5193E049BC64D73B2",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.4.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.4.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows_x64_full_singleFile": {
+      "ArchiveSHA256": "E7A2C4A465654B6302489B43C5BC4214282F42DBE37A81F64267C1CD2B558A82",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.4.1/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.4.1/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows_x64_trimmed_singleFile": {
+      "ArchiveSHA256": "1B1982A97A4626CC93CF78C99C58EA8C0460A08EA55477E5193E049BC64D73B2",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.4.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.4.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows;x86_64;singleFile;full": {
+      "ArchiveSHA256": "E7A2C4A465654B6302489B43C5BC4214282F42DBE37A81F64267C1CD2B558A82",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.5.4.1/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.4.1/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "DeployMethod": 1
+    }
+  },
+  "Version": "1.5.4.1"
+}
