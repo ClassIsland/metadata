@@ -3,11 +3,12 @@
     "Title": "1.5.0.4",
     "Channels": [
         "stable",
+        "rp",
         "beta"
     ],
     "VersionInfoUrl": "",
     "DownloadInfos": {
-        "windows;x86_64;singleFile;full": {
+        "windows_x64_full_singleFile": {
             "DeployMethod": 1,
             "ArchiveDownloadUrls": {
                 "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.5.0.4/ClassIsland.zip",

@@ -1,0 +1,29 @@
+{
+    "Version": "1.5.0.4",
+    "Title": "1.5.0.4",
+    "Channels": [
+        "stable",
+        "rp",
+        "beta"
+    ],
+    "VersionInfoUrl": "",
+    "DownloadInfos": {
+        "windows_x64_full_singleFile": {
+            "DeployMethod": 1,
+            "ArchiveDownloadUrls": {
+                "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.5.0.4/ClassIsland_net6.zip",
+                "github": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.5.0.4/ClassIsland.zip"
+            },
+            "ArchiveSHA256": "c6df9588f8b3850fec749d4b3abcc5066a44a8e04dcd03bd2e1465b34103f212"
+        },
+        "windows_x64_trimmed_singleFile": {
+            "DeployMethod": 1,
+            "ArchiveDownloadUrls": {
+                "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.5.0.4/ClassIsland_AssetsTrimmed_net6.zip",
+                "github": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.5.0.4/ClassIsland_AssetsTrimmed.zip"
+            },
+            "ArchiveSHA256": "fb5b4e8e6818accf2f19702cfc1385b59679864b41ab600b75234600bc1c3382"
+        }
+    },
+    "ChangeLogs": "# test changelogs"
+}
