@@ -1,0 +1,45 @@
+{
+  "Title": "1.6.0.1",
+  "Channels": [
+    "beta",
+    "_",
+    "rp",
+    "stable"
+  ],
+  "ChangeLogs": "# 1.6.0.1\r\n\r\n## 🚀 新增功能与优化\r\n\r\n- 在组件设置显示组件 GUID ([#710](https://github.com/ClassIsland/ClassIsland/issues/710))\r\n- 撤销使开始界面的`注册Url协议`不默认勾选\"的行为\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- 修复在启动时卡死的问题 ([#702](https://github.com/ClassIsland/ClassIsland/issues/702))\r\n- 修复复制档案时档案路径错误的问题 ([#705](https://github.com/ClassIsland/ClassIsland/issues/705))\r\n- 修复 cron 触发器无法工作的问题 ([#715](https://github.com/ClassIsland/ClassIsland/issues/715))\r\n- 修复在调课周视图中显示“第 0 周”的问题 ([#724](https://github.com/ClassIsland/ClassIsland/issues/724))\r\n\r\n[查看 1.6.0.0 的更新日志](https://github.com/ClassIsland/ClassIsland/releases/tag/1.6.0.0)\r\n",
+  "DownloadInfos": {
+    "windows;x86_64;singleFile;full": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "5EE0CDE81CAF6858ACF7AA4813B440F8A20FDEFB471AE487BAE6D47F98A443EC"
+    },
+    "windows_x64_trimmed_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "6C8937A951CABD3DB63CA7097B1D079D730158EE756BBCC432936760726FEAEB"
+    },
+    "windows;x86_64;singleFile;trimmed": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "6C8937A951CABD3DB63CA7097B1D079D730158EE756BBCC432936760726FEAEB"
+    },
+    "windows_x64_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "5EE0CDE81CAF6858ACF7AA4813B440F8A20FDEFB471AE487BAE6D47F98A443EC"
+    }
+  },
+  "Version": "1.6.0.1"
+}
