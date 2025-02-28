@@ -5,7 +5,7 @@
   "DownloadInfos": {
     "windows_x64_trimmed_singleFile": {
       "ArchiveDownloadUrls": {
-        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
         "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
       },
       "DeployMethod": 1,
@@ -13,7 +13,7 @@
     },
     "windows;x86_64;singleFile;trimmed": {
       "ArchiveDownloadUrls": {
-        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
         "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.1/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
       },
       "DeployMethod": 1,
@@ -21,7 +21,7 @@
     },
     "windows;x86_64;singleFile;full": {
       "ArchiveDownloadUrls": {
-        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip",
         "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip"
       },
       "DeployMethod": 1,
@@ -29,7 +29,7 @@
     },
     "windows_x64_full_singleFile": {
       "ArchiveDownloadUrls": {
-        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip",
         "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.1/ClassIsland_app_windows_x64_full_singleFile.zip"
       },
       "DeployMethod": 1,
