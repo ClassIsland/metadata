@@ -1,0 +1,61 @@
+{
+  "DownloadInfos": {
+    "windows;x86_64;singleFile;full": {
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.2/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.2/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "9E7709557BC458A6AEA5F66728286FDC422B482F23BA884F22A3CCDF6E771231",
+      "DeployMethod": 1
+    },
+    "windows_x86_full_singleFile": {
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.2/ClassIsland_app_windows_x86_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.2/ClassIsland_app_windows_x86_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "5153758CE63683CE27856586536899C3AE8C4FA6DD3025BEA619AC43A02162CC",
+      "DeployMethod": 1
+    },
+    "windows;x86_64;singleFile;trimmed": {
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.2/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.2/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "14C73BDC3B75239FA4C2A4C7BEFBC79A4B888D01366A7D63E37FCB155908707E",
+      "DeployMethod": 1
+    },
+    "windows_arm64_full_singleFile": {
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.2/ClassIsland_app_windows_arm64_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.2/ClassIsland_app_windows_arm64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "09191516BCF8A87BCA66ADF382E004D5C2AB0CEE7B05B237F619C382614E4943",
+      "DeployMethod": 1
+    },
+    "windows_x64_trimmed_singleFile": {
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.2/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.2/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "14C73BDC3B75239FA4C2A4C7BEFBC79A4B888D01366A7D63E37FCB155908707E",
+      "DeployMethod": 1
+    },
+    "windows_x64_full_singleFile": {
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.2/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.2/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "9E7709557BC458A6AEA5F66728286FDC422B482F23BA884F22A3CCDF6E771231",
+      "DeployMethod": 1
+    }
+  },
+  "Channels": [
+    "beta",
+    "_",
+    "rp",
+    "stable"
+  ],
+  "Version": "1.6.0.2",
+  "Title": "1.6.0.2",
+  "ChangeLogs": "# 1.6.0.2\r\n\r\n## 🚀 新增功能与优化\r\n\r\n- 【主界面】允许主界面位置判定时直接使用屏幕原始尺寸\r\n- 【主界面】为主界面添加平移变化\r\n- 【主界面】在启动时不自动激活主界面\r\n- 【应用设置】启动界面预览 ([#694](https://github.com/ClassIsland/ClassIsland/issues/694))\r\n- 【应用设置/插件】支持拖入 cipx 到窗口安装插件\r\n- 【应用设置/插件】在插件源刷新失败时提示切换插件源\r\n- 【档案编辑】重复添加行动提示\r\n- 【精确时间服务】在系统时间突变时暂停更新时间\r\n- 【构建】ARM64、x86 架构打包支持\r\n- 【应用】重新创建快捷换课图标 ([#695](https://github.com/ClassIsland/ClassIsland/issues/695))\r\n- 【应用】添加安全模式与诊断模式\r\n- 【应用】为教学安全模式添加更多处理方式 ([#768](https://github.com/ClassIsland/ClassIsland/issues/768))\r\n- 【恢复】添加恢复菜单\r\n- 【配置】自动处理配置文件加载异常 ([#736](https://github.com/ClassIsland/ClassIsland/issues/736))\r\n- 【UI】为天气组件界面提示增加圆角\r\n- 【提醒】增加爱莉希雅、钟离、流萤、高考英语听力男声、三月七 TTS 选项\r\n- 【API/插件 SDK】支持在构建时自动生成插件包\r\n\r\n## 🐛 Bug 修复\r\n\r\n- 【配置】修复天气城市 ID 不会自动迁移的问题 ([#745](https://github.com/ClassIsland/ClassIsland/issues/745))\r\n- 【组件/课表】修复当前课表变化后不更新明天课表显示状态的问题\r\n- 【应用】修复在 x64 以外的架构中出现启动时卡住无法加载的问题\r\n- 【规则集】修复规则集中条件组反转无效的问题\r\n- 【档案编辑】修复时间线视图中分割线和行动时间点无法被拖动的问题 ([#775](https://github.com/ClassIsland/ClassIsland/issues/775))\r\n- 【档案编辑】修复在调课界面可以选择无效课程的问题 ([#779](https://github.com/ClassIsland/ClassIsland/issues/779))\r\n- 【档案编辑】修复调课课表安排 ListBox 出现验证失败红框的问题 ([#778](https://github.com/ClassIsland/ClassIsland/issues/778))\r\n"
+}
