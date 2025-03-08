@@ -24,6 +24,17 @@
         "beta"
       ],
       "VersionInfoUrl": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.5.0.4/index.json"
+    },
+    {
+      "Title": "1.6.0.3",
+      "Channels": [
+        "stable",
+        "beta",
+        "rp",
+        "_"
+      ],
+      "Version": "1.6.0.3",
+      "VersionInfoUrl": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.3/index.json"
     }
   ],
   "Channels": {
