@@ -17,6 +17,14 @@
       },
       "ArchiveSHA256": "81650AF20274E91019734436B7703BA70E6EC563725D9E34B78D0C83FEDDAC73"
     },
+    "windows_unknown_trimmed_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "81650AF20274E91019734436B7703BA70E6EC563725D9E34B78D0C83FEDDAC73"
+    },
     "windows_x86_full_singleFile": {
       "DeployMethod": 1,
       "ArchiveDownloadUrls": {
