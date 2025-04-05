@@ -93,6 +93,48 @@
       "Version": "1.6.0.2",
       "VersionInfoUrl": "https://get.classisland.tech/p/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.2/index.json",
       "Title": "1.6.0.2"
+    },
+    {
+      "VersionInfoUrl": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/index.json",
+      "Version": "1.6.0.3",
+      "Title": "1.6.0.3",
+      "Channels": [
+        "stable",
+        "rp",
+        "beta",
+        "_"
+      ]
+    },
+    {
+      "VersionInfoUrl": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.4/index.json",
+      "Title": "1.6.0.4",
+      "Version": "1.6.0.4",
+      "Channels": [
+        "beta",
+        "_",
+        "rp",
+        "stable"
+      ]
+    },
+    {
+      "Channels": [
+        "beta",
+        "_",
+        "rp",
+        "stable"
+      ],
+      "Version": "1.6.0.5",
+      "VersionInfoUrl": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.5/index.json",
+      "Title": "1.6.0.5"
+    },
+    {
+      "Title": "1.6.1.0",
+      "Version": "1.6.1.0",
+      "VersionInfoUrl": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.1.0/index.json",
+      "Channels": [
+        "beta",
+        "_"
+      ]
     }
   ],
   "Channels": {

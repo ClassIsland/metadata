@@ -1,0 +1,77 @@
+{
+  "Channels": [
+    "stable",
+    "rp",
+    "beta",
+    "_"
+  ],
+  "Version": "1.6.0.3",
+  "ChangeLogs": "# 1.6.0.3\r\n\r\n1.6 - Himeko\r\n\r\n本版本修复了先前版本的一些重要问题，请及时更新。\r\n\r\n## 🚀 新增功能与优化\r\n\r\n- 【插件市场】更换默认插件源\r\n- 【应用设置/插件】在插件列表添加操作按钮\r\n- 【提醒】允许使用主线程呈现提醒特效\r\n- 【自动化】优化恢复模式自动触发逻辑\r\n- 【应用设置】优化关于页面外观\r\n- 【应用】在停止时取消挂钩系统事件，以防止在停止过程中因触发系统事件导致应用异常\r\n- 【档案编辑】优化时间线视图查找前后时间点方法\r\n- 【遥测】更换 Sentry 后端\r\n- 【主界面】降低 ComponentPresenter 向上传递可视状态变化事件的频率\r\n\r\n## 🐛 Bug 修复\r\n\r\n- 【恢复】修复重启时可能直接进入恢复的问题\r\n- 【提醒】回滚 7f0af28631d47652f0d1ebf94235512061e53ae2 中允许显示正文时长为 0 的提醒的行为，并从提醒行动中修复 #667 的问题\r\n- 【构建】修复 x64 架构的发布识别为 unknown 的问题\r\n- 【应用设置】#798 修复应用设置页面内存泄漏的问题\r\n- 【档案编辑】修复行动时间点可能被遮挡的问题 #795\r\n- 【档案编辑】修复在包含行动时间点的时间表中拖动分割线时间点导致分割线时间点顺序乱跳的问题\r\n- 【更新】修正更新链接\r\n",
+  "Title": "1.6.0.3",
+  "DownloadInfos": {
+    "windows_x64_trimmed_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "81650AF20274E91019734436B7703BA70E6EC563725D9E34B78D0C83FEDDAC73"
+    },
+    "windows_unknown_trimmed_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "81650AF20274E91019734436B7703BA70E6EC563725D9E34B78D0C83FEDDAC73"
+    },
+    "windows_x86_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_x86_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_x86_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "CA85716057CC4DCDBA6A86726A68BCBDC85FD1D069B603D045DDCAEB34873C99"
+    },
+    "windows_arm64_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_arm64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_arm64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "9A7528BFE070F26DC96750C37EE0CBD7928CC7E0D764B6CB8561C9BB042AB654"
+    },
+    "windows;x86_64;singleFile;trimmed": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "ArchiveSHA256": "81650AF20274E91019734436B7703BA70E6EC563725D9E34B78D0C83FEDDAC73"
+    },
+    "windows;x86_64;singleFile;full": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "5A29C7E40180CF36C9CC4B96DEC997291140176ABA64C524B8CF26DA3958286B"
+    },
+    "windows_unknown_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "5A29C7E40180CF36C9CC4B96DEC997291140176ABA64C524B8CF26DA3958286B"
+    },
+    "windows_x64_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.0.3/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.0.3/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "ArchiveSHA256": "5A29C7E40180CF36C9CC4B96DEC997291140176ABA64C524B8CF26DA3958286B"
+    }
+  }
+}

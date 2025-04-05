@@ -1,0 +1,69 @@
+{
+  "Channels": [
+    "beta",
+    "_",
+    "rp",
+    "stable"
+  ],
+  "Version": "1.6.0.4",
+  "DownloadInfos": {
+    "windows_unknown_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveSHA256": "94581F194B788BC7106B80E5AB466F45A3EE3E8266B4062A3EA390147EFDE392",
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.4/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.4/ClassIsland_app_windows_x64_full_singleFile.zip"
+      }
+    },
+    "windows;x86_64;singleFile;full": {
+      "DeployMethod": 1,
+      "ArchiveSHA256": "94581F194B788BC7106B80E5AB466F45A3EE3E8266B4062A3EA390147EFDE392",
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.4/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.4/ClassIsland_app_windows_x64_full_singleFile.zip"
+      }
+    },
+    "windows_arm64_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveSHA256": "AADF66FCD0035BA1E95480706A11E0CD268F9DABA0454CCA5D3A137C502438FB",
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.4/ClassIsland_app_windows_arm64_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.4/ClassIsland_app_windows_arm64_full_singleFile.zip"
+      }
+    },
+    "windows_x86_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveSHA256": "C839272CC391CFF7A2EA00E38142F68F65CD565824085A0D43E91441158C90A9",
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.4/ClassIsland_app_windows_x86_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.4/ClassIsland_app_windows_x86_full_singleFile.zip"
+      }
+    },
+    "windows;x86_64;singleFile;trimmed": {
+      "DeployMethod": 1,
+      "ArchiveSHA256": "BBEAA691F604C415167E1EF8910826DA9D601D6C0EF1AD38651DB99AA91406F9",
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.4/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.4/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      }
+    },
+    "windows_x64_trimmed_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveSHA256": "BBEAA691F604C415167E1EF8910826DA9D601D6C0EF1AD38651DB99AA91406F9",
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.4/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.4/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      }
+    },
+    "windows_x64_full_singleFile": {
+      "DeployMethod": 1,
+      "ArchiveSHA256": "94581F194B788BC7106B80E5AB466F45A3EE3E8266B4062A3EA390147EFDE392",
+      "ArchiveDownloadUrls": {
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb-net6/1.6.0.4/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "github-origin": "https://github.com/ClassIsland/ClassIsland-net6/releases/download/1.6.0.4/ClassIsland_app_windows_x64_full_singleFile.zip"
+      }
+    }
+  },
+  "Title": "1.6.0.4",
+  "ChangeLogs": "# 1.6.0.4\r\n\r\n1.6 - Himeko\r\n\r\n本版本修复了先前版本的一些问题，请及时更新。\r\n\r\n## 🚀 新增功能与优化\r\n\r\n- 【组件/轮播组件】轮播组件跳过按规则隐藏的子组件\r\n- 【应用】改进重复启动应用时的提醒对话框\r\n- 【应用】允许通过主菜单重启应用\r\n- 【天气】增补天气代码 301 雨 302 雪\r\n- 【提醒】在准备上课提醒结束后停止轮播计时器、优化字符串拼接方法\r\n\r\n### 🐛 Bug 修复\r\n\r\n- 【插件】卸载插件时导致其他插件不加载的问题 #860\r\n- 【精确时间服务】修复时间可能停止流动的问题 #868\r\n- 【主界面】修复在特定情况下多行组件中其他行组件无法按规则隐藏后正确恢复的问题 #743\r\n- 【档案编辑器】修复时间线编辑器各种奇奇怪怪的问题，添加吸附模式开关 #829\r\n- 【提醒】行动提醒的遮罩文字以粗体显示\r\n- 【天气】修复天气名称拼写错误 #820\r\n- 【自动化】#843\r\n- 【自动化】修复切换自动化配置文件不能正常使用的问题 #840 #742\r\n- 【档案】修复在设置无持续时长类型的时间点时出现始末时间错误的问题 #825\r\n- 【主题色提取】修复在一些情况下壁纸提取服务获取截图导致崩溃的问题\r\n- 【应用】修复在启动过程中退出导致异常的问题\r\n- 【应用设置】修复插件操作界面复选框未对齐的问题\r\n"
+}
