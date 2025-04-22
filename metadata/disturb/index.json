@@ -135,6 +135,15 @@
         "beta",
         "_"
       ]
+    },
+    {
+      "Title": "1.6.1.1",
+      "Channels": [
+        "beta",
+        "_"
+      ],
+      "Version": "1.6.1.1",
+      "VersionInfoUrl": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.1.1/index.json"
     }
   ],
   "Channels": {
