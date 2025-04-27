@@ -1,0 +1,67 @@
+{
+  "Title": "1.6.2.0",
+  "Channels": [
+    "beta",
+    "_"
+  ],
+  "DownloadInfos": {
+    "windows_unknown_full_singleFile": {
+      "ArchiveSHA256": "12A2A10B4D7AE51BEF05021E6FABB4B7A925A44EA8E323DD091C3F6E13409B2A",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.2.0/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.2.0/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows_arm64_full_singleFile": {
+      "ArchiveSHA256": "D37037530C81E2811EE9985A7B870E8F2B417B914B61300C314041B893B9DA5E",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.2.0/ClassIsland_app_windows_arm64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.2.0/ClassIsland_app_windows_arm64_full_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows;x86_64;singleFile;full": {
+      "ArchiveSHA256": "12A2A10B4D7AE51BEF05021E6FABB4B7A925A44EA8E323DD091C3F6E13409B2A",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.2.0/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.2.0/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows_x86_full_singleFile": {
+      "ArchiveSHA256": "600881257DB6486C6AB8830F66178FCFC398212C09237BB7553DB47318C48600",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.2.0/ClassIsland_app_windows_x86_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.2.0/ClassIsland_app_windows_x86_full_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows_x64_full_singleFile": {
+      "ArchiveSHA256": "12A2A10B4D7AE51BEF05021E6FABB4B7A925A44EA8E323DD091C3F6E13409B2A",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.2.0/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.2.0/ClassIsland_app_windows_x64_full_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows;x86_64;singleFile;trimmed": {
+      "ArchiveSHA256": "18059FF6F18739C3C78A1D0319D1728E0D23FC455F3B020DF4AF05798AF4BFA1",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.2.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.2.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "DeployMethod": 1
+    },
+    "windows_x64_trimmed_singleFile": {
+      "ArchiveSHA256": "18059FF6F18739C3C78A1D0319D1728E0D23FC455F3B020DF4AF05798AF4BFA1",
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.2.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.2.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      },
+      "DeployMethod": 1
+    }
+  },
+  "Version": "1.6.2.0",
+  "ChangeLogs": "# 1.6.2.0\r\n\r\n1.7 -RyouYamada\r\n\r\n> 1.7 -RyouYamada 测试版，可能包含未完善和不稳定的功能\r\n\r\n> [!warning]\r\n> 本版本对提醒 API 进行了重构，可能会出现不稳定的情况，请谨慎使用！\r\n\r\n## 🚀 新增功能与优化\r\n\r\n- **【提醒】提醒 API v2：** 加入了新版提醒 API，具体变化如下：\r\n    - 允许提醒在提醒提供方下注册提醒渠道，提供更细化的提醒自定义选项。\r\n    - 提醒内容支持使用数据模板，减少开发提醒提供方的重复代码。\r\n    - 加入链式提醒。取消链式提醒中的提醒的同时也会取消链式提醒中的其它提醒。\r\n- 【提醒】将应用内置的提醒提供方迁移到 v2 提醒 API\r\n- 【提醒/上课提醒】提醒渠道支持，将上下课提醒拆分到多个提醒渠道中 ([#517](https://github.com/ClassIsland/ClassIsland/issues/517))\r\n- 【提醒/上课提醒】优化即将上课提醒发布逻辑\r\n- 【应用设置】自动时间校准按钮 ([#123](https://github.com/ClassIsland/ClassIsland/issues/123))\r\n- 【自动化】在特定时间点前指定时间触发自动化 ([#458](https://github.com/ClassIsland/ClassIsland/issues/458))\r\n- 【崩溃报告】崩溃报告显示 traceId\r\n- 【应用】将未捕获的异常 UCEERR_RENDERTHREADFAILURE (0x88980406) 视为关键异常\r\n- 【日志】优化日志记录中内存使用量的显示\r\n- 【本地化】添加本地化语言初步支持\r\n- 【行动】加入重启应用、设置主界面偏移和设置主界面置顶状态的行动 ([#981](https://github.com/ClassIsland/ClassIsland/issues/981)) ([#833](https://github.com/ClassIsland/ClassIsland/issues/833)) ([#773](https://github.com/ClassIsland/ClassIsland/issues/773))\r\n\r\n## 🐛 Bug 修复\r\n\r\n- 【主界面】修复提醒时切换多行组件配置方案或重载主题出现 Bug 的问题 ([#628](https://github.com/ClassIsland/ClassIsland/issues/628))\r\n- 【主界面】修复在主界面行控件未完全初始化时发出提醒报错的问题 ([#737](https://github.com/ClassIsland/ClassIsland/issues/737))\r\n- 【主界面】修复禁用鼠标穿透后无法点击主界面元素的问题\r\n\r\n<!-- generated by git-cliff -->\r\n"
+}
