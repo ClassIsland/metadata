@@ -1,0 +1,68 @@
+{
+  "DownloadInfos": {
+    "windows_arm64_full_singleFile": {
+      "ArchiveSHA256": "C6FBBD915ADDDDA77C40369A52A03D02DC5DFE63BA4CB5321A281181A9121842",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.3.0/ClassIsland_app_windows_arm64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.3.0/ClassIsland_app_windows_arm64_full_singleFile.zip"
+      }
+    },
+    "windows_x86_full_singleFile": {
+      "ArchiveSHA256": "AE95ABE79D06D327E3B4600CEE9AC055CE78FBE29229D56B3C96371D6932D73E",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.3.0/ClassIsland_app_windows_x86_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.3.0/ClassIsland_app_windows_x86_full_singleFile.zip"
+      }
+    },
+    "windows_x64_full_singleFile": {
+      "ArchiveSHA256": "5CF3EFCFE4436B339AC853354CD0B03CAEEF38AAB92CD9856115C3CEDEAB0982",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.3.0/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.3.0/ClassIsland_app_windows_x64_full_singleFile.zip"
+      }
+    },
+    "windows;x86_64;singleFile;trimmed": {
+      "ArchiveSHA256": "D79A63A0E262D40FA665F910E4536036938F9814A914CE97DE208A5DFF9BAAE9",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.3.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.3.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      }
+    },
+    "windows;x86_64;singleFile;full": {
+      "ArchiveSHA256": "5CF3EFCFE4436B339AC853354CD0B03CAEEF38AAB92CD9856115C3CEDEAB0982",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.3.0/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.3.0/ClassIsland_app_windows_x64_full_singleFile.zip"
+      }
+    },
+    "windows_x64_trimmed_singleFile": {
+      "ArchiveSHA256": "D79A63A0E262D40FA665F910E4536036938F9814A914CE97DE208A5DFF9BAAE9",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.3.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.3.0/ClassIsland_app_windows_x64_trimmed_singleFile.zip"
+      }
+    },
+    "windows_unknown_full_singleFile": {
+      "ArchiveSHA256": "5CF3EFCFE4436B339AC853354CD0B03CAEEF38AAB92CD9856115C3CEDEAB0982",
+      "DeployMethod": 1,
+      "ArchiveDownloadUrls": {
+        "github-origin": "https://github.com/ClassIsland/ClassIsland/releases/download/1.6.3.0/ClassIsland_app_windows_x64_full_singleFile.zip",
+        "main": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.3.0/ClassIsland_app_windows_x64_full_singleFile.zip"
+      }
+    }
+  },
+  "Version": "1.6.3.0",
+  "ChangeLogs": "# 1.6.3.0\r\n\r\n1.7 -RyouYamada\r\n\r\n> 1.7 -RyouYamada 测试版，可能包含未完善和不稳定的功能\r\n\r\n🎉 本版本是 1.7 的最后一个 Beta 版，将在确认稳定并修复在这个版本收到的问题后，在下一个版本发布 1.7 的正式版。\r\n\r\n## 🚀 新增功能与优化\r\n\r\n- **【主题】主题功能：**将主题功能整合到应用中，并加入主题市场支持 ([#766](https://github.com/ClassIsland/ClassIsland/issues/766))\r\n- **【导出到表格】导出到表格：**支持将课表导出到 Excel 表格，以便进行打印和分发 ([#410](https://github.com/ClassIsland/ClassIsland/issues/410))\r\n- 【组件】滚动组件 ([#393](https://github.com/ClassIsland/ClassIsland/issues/393))\r\n- 【应用设置/组件】优化组件设置页面组件库 VirtualizingWrapPanel 外观\r\n- 【应用设置/组件】新增组件操作：包裹组件、创建组件副本\r\n- 【档案】直接隐藏一定时间的课程 ([#182](https://github.com/ClassIsland/ClassIsland/issues/182))\r\n- 【档案编辑】按下 Ctrl+S 保存档案\r\n- 【应用设置/插件】添加插件市场空白占位符\r\n- 【天气】将天气图标修改为 Sf Symbol Icon\r\n- 【档案】添加复姓处理逻辑到 Subject 类\r\n- 【日志】在日志输出中添加在提取主题色时的结果\r\n- 【备份】将备份存储方式由文件夹形式改为压缩文件形式\r\n- 【集控】集控上传审计事件 ([#744](https://github.com/ClassIsland/ClassIsland/issues/744))\r\n- 【集控】添加组件与认证配置拉取支持 ([#744](https://github.com/ClassIsland/ClassIsland/issues/744))\r\n- 【API/语音】添加自定义语音服务 API ([#528](https://github.com/ClassIsland/ClassIsland/issues/528))\r\n\r\n## 🐛 Bug 修复\r\n\r\n- 【组件/轮播组件】修复轮播组件在重载后因重复注册计时器 Tick 事件导致无法正常轮播的问题 ([#878](https://github.com/ClassIsland/ClassIsland/issues/878))\r\n- 【应用设置】修复在系统 TTS 不可用时选择其它 TTS 提供方时设置被覆盖的问题\r\n- 【组件/课表】修复切换时间表后当前时间点不显示的问题 ([#912](https://github.com/ClassIsland/ClassIsland/issues/912))\r\n- 【提醒】修复附加设置中的户外课程提醒文本不生效的问题\r\n- 【提醒】修复缺少标点符号导致播报任教老师时可能出现断句问题\r\n- 【提醒】修复提醒渠道设置不能保存的问题 ([#987](https://github.com/ClassIsland/ClassIsland/issues/987))\r\n- 【提醒】修复滚动文字提醒（天气预警、滚动文字提醒模板）在部分主题下高度错位的问题  ([#943](https://github.com/ClassIsland/ClassIsland/issues/943))\r\n- 【UI】修正过时的文档链接\r\n- 【应用】修复重复触发应用停止事件的问题 ([#1014](https://github.com/ClassIsland/ClassIsland/issues/1014))\r\n- 【档案编辑】修复调课日历中课表选择界面不显示课表的第一个下划线的问题 ([#921](https://github.com/ClassIsland/ClassIsland/issues/921))\r\n- 【档案编辑】修复调课页面在更新选择日期后没有及时更新表格内容的问题 ([#1017](https://github.com/ClassIsland/ClassIsland/issues/1017))\r\n\r\n<!-- generated by git-cliff -->\r\n",
+  "Title": "1.6.3.0",
+  "Channels": [
+    "beta",
+    "_",
+    "rp"
+  ]
+}
