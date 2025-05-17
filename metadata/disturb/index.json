@@ -163,6 +163,17 @@
       "Version": "1.6.3.0",
       "Title": "1.6.3.0",
       "VersionInfoUrl": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.6.3.0/index.json"
+    },
+    {
+      "Title": "1.7.0.0",
+      "Channels": [
+        "beta",
+        "_",
+        "rp",
+        "stable"
+      ],
+      "VersionInfoUrl": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/disturb/1.7.0.0/index.json",
+      "Version": "1.7.0.0"
     }
   ],
   "Channels": {
